@@ -31,7 +31,7 @@ def wish_me():
         speak("good evening sir, ")
     else:
         speak("")
-f="shubh123"
+f="xxxxxxx"
 def takecommand():
     r=sr.Recognizer()
     with sr.Microphone() as source:
@@ -195,3 +195,4 @@ if __name__=="__main__":
         elif"tell me a joke" in query:
             joke=pyjokes.get_joke()
             speak(joke)
+            
